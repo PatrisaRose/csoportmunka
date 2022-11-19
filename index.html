@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta
+      name="author"
+      content="Terényi János, Tóth Alexandra, Gergely Patrícia Róza"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/index.css" />
+  </head>
+  <body>
+    <div id="main-header">
+      <img id="main-header-logo" src="img/logo.png" alt="A weboldal logója" />
+      <input type="text" placeholder="Search..." id="main-header-searchbar" />
+      <div id="main-header-buttons">
+        <button id="write-post-button">Write a post</button>
+        <button id="chat-button" class="circle-buttons"></button>
+        <button id="notifications-button" class="circle-buttons"></button>
+        <button id="user-button" class="circle-buttons"></button>
+      </div>
+    </div>
+    <!-- Ez lesz a 3 oszlop -->
+    <div class="fogrid">
+      <div id="left-side-navigation-and-my-tags">
+        <!-- Készítette: Terényi János -->
+        <nav id="left-side-navigation">
+          <ul>
+            <li id="list-item-home" class="list-item">
+                <div class="list-item-icon"></div>
+                <a href="" class="list-item-name">Terényi János</a>
+            </li>
+            <li id="list-item-reading-list" class="list-item">
+                <div class="list-item-icon"></div>
+                <a href="" class="list-item-name">Reading List</a>
+            </li>
+            <li id="list-item-listings" class="list-item">
+                <div class="list-item-icon"></div>
+                <a href="" class="list-item-name">Listings</a>
+            </li>
+            <li id="list-item-podcasts" class="list-item">
+                <div class="list-item-icon"></div>
+                <a href="" class="list-item-name">Podcasts</a>
+            </li>
+            <li id="list-item-videos" class="list-item">
+                <div class="list-item-icon"></div>
+                <a href="" class="list-item-name">Videos</a>
+            </li>
+            <li id="list-item-tags" class="list-item">
+                <div class="list-item-icon"></div>
+                <a href="" class="list-item-name">Tags</a>
+            </li>
+            <li id="list-item-more" class="list-item">
+                <div class="list-item-icon"></div>
+                <a href="" class="list-item-name">More...</a>
+            </li>
+          </ul>
+        </nav>
+        <div id="my-tags">
+          <h2>My Tags</h2>
+          <button id="my-tags-options"></button>
+          <nav>
+            <ul>
+              <li><a href="">#javascript</a></li>
+              <li><a href="">#webdev</a></li>
+              <li><a href="">#career</a></li>
+              <li><a href="">#tutorial</a></li>
+              <li><a href="">#react</a></li>
+              <li><a href="">#productivity</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div> 
+  
+      <div id="main">
+        <!-- Készítette: Tóth Alexandra -->
+        <div class="posts">
+          <div class="name"><p>Tóth Alexandra</p></div>
+          <div></div>
+          <div></div>
+          <div class="feed"><a href="#">Feed</a></div>
+          <div><a href="#">Week</a></div>
+          <div><a href="#">Month</a></div>
+          <div><a href="#">Year</a></div>
+          <div><a href="#">Infinity</a></div>
+          <div><a href="#">Latest</a></div>
+        </div>
+        <div class="teljes">
+          <div class="photo">
+            <img src="img/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="WorkWorkWork"/> </div>
+          <div class="szoveg1">
+            <div class="logoresz">
+              <div class="logo">
+                <img src="img/FAcebook logo.png" alt="Facebook" />
+              </div>
+              <div class="szoveg"><p>Devinterview-io <hr>November 12 (6 hours ago)</hr></p></div>          </div>
+              <div class="text">
+                <p>
+                  UX Design interview questions and
+                  <hr> answers for developers and designers</hr>
+                </p>
+              <div class="sharp">
+                <p>#ux</p>
+                <p>#design</p>
+                <p>#webdev</p>
+                <p>#career</p>
+              </div>
+              </div>
+            <div class="reactions">
+              <p>&#128512;10 reactions</p>
+              <p class="comment">&#128516;Add comment</p>
+              <p></p>
+              <p style="color: gray;">14 min read</p>
+              <button>Save</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="szoveg2">
+          <div class="logoresz">
+            <div class="logo">
+              <img src="img/FAcebook logo.png" alt="Facebook" />
+            </div>
+            <div class="szoveg"><p>Ademilson F. Tonato <hr>November 12 (5 hours ago)</p></div>
+          </div>
+          <div class="text">
+            <p>Realtime Subscriptions using Vue + Subabase</p>
+          <div class="sharp">
+            <p>#javascript</p>
+            <p>#vue</p>
+            <p>#webdev</p>
+            <p>#database</p>
+          </div>
+          </div>
+          <div class="reactions">
+            <p>&#128512;6 reactions</p>
+            <p class="comment">&#128516;1 comment</p>
+            <p></p>
+            <p style="color: gray;justify-items:end;">4 min read</p>
+            <button>Save</button>
+          </div>
+        </div>
+      </div>
+  
+      <div id="right-side-listings-and-news">
+        <!-- Készítette: Gergely Patrícia Róza -->
+        <aside>
+          <div id="listborder">
+            <div id="listings">
+            <h4>Gergely Patricia</h4>
+            <ul>
+              <li>
+                <a href="index.html">See all</a>
+              </li>
+            </ul>
+          </div>  
+            <article>
+              <h3>
+                ⚡Fastest way to build notifications for your app | Email, SMS, push
+                & chat
+              </h3>
+              <p>products</p>
+            </article>
+            <article>
+              <h3>
+                Full-time Software Engineer (backend) for Open Source Project,
+                Germany
+              </h3>
+              <p>jobs</p>
+            </article>
+            <article>
+              <h3>Build a full-stack role-based auth in 60 mins 💎💎💎</h3>
+              <p>education</p>
+            </article>
+            <article>
+              <h3>⭐Pre-Order Grokking the spring Boot Interview for $10.99⭐</h3>
+              <p>education</p>
+            </article>
+            <article>
+              <h3>
+                TextSniper - Capture and extract any text from your Mac's screen |
+                images
+              </h3>
+              <p>products</p>
+            </article>
+            <button>Create a Listing</button>
+          </div>
+            <div id="bottom">
+              <article>
+                <h2>#news</h2>
+              </article>
+              <article>
+                <h4>Sailboat</h4>
+              </article>
+            </div>
+          </div>
+          
+        </aside>
+      </div>
+    </div>
+    
+  </body>
+</html>

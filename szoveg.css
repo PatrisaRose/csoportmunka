@@ -1,0 +1,29 @@
+.logo img{
+    height: 40px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.logoresz{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.szoveg2 .text{
+    margin-left: 60px;
+    font-size: 28px;
+}
+
+.szoveg2 .sharp{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 60%;
+    font-size: 12px;
+    color: gray;
+ }
+
+ .szoveg2 .reactions{
+    display: grid;
+    grid-template-columns: 10% 10% 60% 10% 10%;
+ }
+
+

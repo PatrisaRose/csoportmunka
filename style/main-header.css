@@ -1,0 +1,71 @@
+#main-header {
+  background-color: #1a2634;
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: 58px 1fr auto auto;
+  align-items: center;
+  gap: 15px;
+}
+
+#main-header-logo {
+  justify-self: center;
+}
+
+#main-header-buttons {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 10px;
+}
+
+#main-header-searchbar {
+  background-color: #2e3a48;
+  color: #fff;
+  height: 30px;
+  max-width: 500px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#write-post-button {
+  background-color: #7b78ff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+#write-post-button:hover {
+  background-color: #5553ad;
+  cursor: pointer;
+}
+
+#chat-button {
+  background-image: url(../img/chat.png);
+}
+
+#notifications-button {
+  background-image: url(../img/notification.png);
+}
+
+#user-button {
+  background-image: url(../img/user.png);
+}
+
+#chat-button,
+#notifications-button,
+#user-button {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+.circle-buttons {
+  height: 36px;
+  width: 36px;
+  border-radius: 100%;
+  background-color: #1a2634;
+}
+
+.circle-buttons:hover {
+  background-color: #1e2f42;
+  cursor: pointer;
+}
